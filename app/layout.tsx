@@ -32,8 +32,8 @@ export default function RootLayout({
       <nav className="bg-gray-700 flex gap-4 p-4 text-lg">
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
-        <Link href="/classroom">Classroom</Link>
-        <Link href="/skills">Skills</Link>
+        <Link href="/sheryians">Sheryians</Link>
+        <Link href="/sheryians/classroom">Classroom</Link>
       </nav>
 
       <body className="min-h-full flex flex-col">{children}</body>
