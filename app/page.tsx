@@ -3,9 +3,11 @@ import Card from "@/components/Card"
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hello world!</h1>
-      <Card />
+    <div className="flex">
+      <Card title="Card 1" description="This is card 1" />
+      <Card title="Card 2" description="This is card 2" />
+      <Card title="Card 3" description="This is card 3" />
+      <Card title="Card 4" description="This is card 4" />
     </div>
   );
 }
